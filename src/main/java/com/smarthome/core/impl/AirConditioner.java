@@ -9,7 +9,7 @@ public class AirConditioner implements Appliance {
 
     public void setMode(String mode) {
         if (!mode.equals("cool") && !mode.equals("heat") && !mode.equals("off")) {
-            throw new IllegalArgumentException("Invalid mode");
+            throw new IllegalArgumentException("Invalid AC mode. Allowed values are: cool, heat, off.");
         }
         this.thermostatMode = mode;
     }
