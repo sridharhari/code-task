@@ -1,9 +1,0 @@
-com/smarthome/core/Appliance.class
-com/smarthome/controller/ApplianceController.class
-com/smarthome/core/impl/Fan.class
-com/smarthome/core/factory/ApplianceFactory.class
-com/smarthome/core/impl/Light.class
-com/smarthome/scheduler/AnnualMaintenanceScheduler.class
-com/smarthome/SmarthomeApplication.class
-com/smarthome/service/SmartHomeService.class
-com/smarthome/core/impl/AirConditioner.class
