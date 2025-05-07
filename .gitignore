@@ -1,0 +1,43 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+**/*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Test Reports
+/test-output/
+
+# Environment Files
+.env
+*.env
+
+# Build output
+/build/
+
+# Dependency directories
+/node_modules/
+
+# Spring Boot specific
+*.jar
+*.war
+
+# Temporary files
+*.tmp
+*.swp
+
+# Eclipse files
+.settings

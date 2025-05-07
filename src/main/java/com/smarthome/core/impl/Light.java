@@ -1,9 +1,14 @@
-package com.controller.appliance.impl;
+package com.smarthome.core.impl;
 
-import com.controller.appliance.Appliance;
+import com.smarthome.core.Appliance;
 
 public class Light implements Appliance {
-    private String switchPosition = "on";
+	
+    private String switchPosition = "off";
+
+    public void turnOn() {
+        switchPosition = "on";
+    }
 
     public void turnOff() {
         switchPosition = "off";
@@ -12,4 +17,5 @@ public class Light implements Appliance {
     public boolean isOn() {
         return "on".equals(switchPosition);
     }
+
 }
