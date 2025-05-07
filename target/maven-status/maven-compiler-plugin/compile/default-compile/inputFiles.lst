@@ -1,0 +1,9 @@
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/SmarthomeApplication.java
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/controller/ApplianceController.java
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/core/Appliance.java
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/core/factory/ApplianceFactory.java
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/core/impl/AirConditioner.java
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/core/impl/Fan.java
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/core/impl/Light.java
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/scheduler/AnnualMaintenanceScheduler.java
+/Users/sridharhari/Sri/PracticeTests/git/code-task/src/main/java/com/smarthome/service/SmartHomeService.java
