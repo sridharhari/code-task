@@ -2,6 +2,7 @@ package com.smarthome.controller;
 
 import java.util.Map;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,9 +13,11 @@ import com.smarthome.service.SmartHomeService;
 
 @RestController
 @RequestMapping("/appliances")
-class ApplianceController {
+public class ApplianceController {
 
-    private final SmartHomeService smartHomeService = new SmartHomeService();
+
+	@Autowired
+    private SmartHomeService smartHomeService;
 
     @PostMapping("/add")
     public String addDevice(@RequestParam String type, @RequestParam String id) {

@@ -3,12 +3,15 @@ package com.smarthome.service;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.springframework.stereotype.Component;
+
 import com.smarthome.core.Appliance;
 import com.smarthome.core.factory.ApplianceFactory;
 import com.smarthome.core.impl.AirConditioner;
 import com.smarthome.core.impl.Fan;
 import com.smarthome.core.impl.Light;
 
+@Component
 public class SmartHomeService {
 	
 	  	private final Map<String, Appliance> devices = new HashMap<>();
